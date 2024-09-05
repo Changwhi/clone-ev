@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import CarCard from "@/components/carCard";
 import Image from "next/image";
-import CompareAndIncentives from "@/components/compareAndIncentives";
 import EVCalculator from "@/components/paymentAndCompare/paymentCalculator";
 import CompareAndCalculator from "@/components/shopNowAndSave";
 import PaymentCalculator from "@/components/paymentAndCompare/paymentCalculator";
