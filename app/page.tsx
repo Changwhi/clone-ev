@@ -7,6 +7,7 @@ import PaymentCalculator from "@/components/paymentAndCompare/paymentCalculator"
 import EvComparison from "@/components/evCalculator";
 import ShopCategories from "@/components/paymentAndCompare";
 import Footer from "@/components/footer";
+import CompareAndIncentives from "@/components/compareAndIncentives/compareAndIncentives";
 
 export default function Home() {
   return (
@@ -97,6 +98,9 @@ export default function Home() {
         </div>
       </section>
       {/* Compare and incentive Section */}
+      <section className="py-16 bg-white">
+        <CompareAndIncentives/>
+      </section>
 
       <section className="py-16 bg-white">
         <EVCalculator/>
@@ -104,9 +108,6 @@ export default function Home() {
 
       {/* EV calculator Section */}
 
-      <section className="py-16 bg-white">
-        <CompareAndCalculator />
-      </section>
       {/* Shop Now and Save Section */}
       <section className="py-16 bg-white">
         <CompareAndCalculator />
