@@ -8,7 +8,7 @@ export default function CompareAndIncentives() {
         <div>
           <h2 className="text-2xl font-bold mb-2">Compare EVS</h2>
           <h3 className="text-3xl font-bold mb-4">Compare the latest makes and models quickly and easy</h3>
-          <p className="mb-6">We'll help you make the best decision.</p>
+          <p className="mb-6">We&apos;ll help you make the best decision.</p>
           <Link 
             href="/get-started" 
             className="inline-block bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-colors"
@@ -32,7 +32,7 @@ export default function CompareAndIncentives() {
             Incentives
           </span>
           <h3 className="text-3xl font-bold mb-4">Save up to $7,500 or more with qualifying incentives</h3>
-          <p className="mb-6">We'll help you navigate federal incentives to maximize your savings.</p>
+          <p className="mb-6">We&apos;ll help you navigate federal incentives to maximize your savings.</p>
           <Link 
             href="/search-evs" 
             className="inline-block bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-colors"
